@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
+    <title> Exercicio 1 parte 2 -  3398537915948600000 </title>    
+  </head>
+
+  <body>
+    <div class="w3-bar w3-cyan w3-xlarge">
+        <a href="index.html" class="w3-bar-item w3-button w3-mobile w3-cyan">Início</a>
+        <a href="adicionarPessoas.html" class="w3-bar-item w3-button w3-mobile w3-cyan">Adicionar pessoa</a>
+        <a href="listarPessoas.html" class="w3-bar-item w3-button w3-mobile w3-cyan">Listar pessoas</a>
+        <a href="contato.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Contato</a>
+        <a href="sobre.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Sobre o site</a>
+        <a href="noticias.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Notícias</a>
+    </div>
+
+    <main class="container"> 
+      <h1>Formulário para editar pessoas:</h1>
+<section>
+    <form action="adicionadaComSucesso.html">
+        <div class="grid">
+            <span>
+                <label for="nome">Seu nomezinho*:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome da Primeira Pessoa"/>
+            </span>
+            <span>
+              <label for="email">e-Mail*:</label>
+                <input type="email" id="email" name="email" placeholder="primeira@primeira.com" />
+                    <small>Nunca divulgaremos :)</small>
+            </span>
+            <span>
+              <label for="dataNascimento">Data de Nascimento*:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" placeholder="dataNascimento"/>
+            </span>
+        </div>
+        <div class="grid">
+            <fieldset>
+              <legend>Gênero*:</legend>
+              <label for="radio-1">
+                <input type="radio" id="radio-1 "name="radio" value="radio-1" checked/>
+                Masculino
+              </label>
+              <label for="radio-2">
+                <input type="radio" id="radio-2" name="radio" value="radio-2" />
+                Feminino
+              </label>
+              <label for="radio-3">
+                <input type="radio" id="radio-3" name="radio" value="radio-3" />
+                Não informar
+              </label>
+            </fieldset>
+          </div>
+          <div class="grid">
+            <input type="submit" value="Adicionar!"/>
+            <input type="reset" value="Limpar"/>
+          </div>
+          <p>* Campo obrigatório</p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
