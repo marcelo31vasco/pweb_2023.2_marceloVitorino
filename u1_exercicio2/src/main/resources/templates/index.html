@@ -2,13 +2,25 @@
 <html>
   <head>
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
-    <link rel="icon" type="image/x-icon" href="assets\favicon.ico" />
+    <link rel="stylesheet" th:href="@{\assets\w3.css}" />
+    <link rel="stylesheet" th:href="@{\assets\pico.min.css}"/>
+    <link rel="icon" type="image/x-icon" th:href="@{assets\favicon.ico}" />
     <title> Exercicio 1 parte 2 -  3398537915948600000 </title>    
-  </head>
 
-  <body>
+    <style>
+      .hidrate-se {
+          text-align: center;
+      }
+      .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+          }
+      </style>
+    </head>
+
+    <body>
     <div class="w3-bar w3-cyan w3-xlarge">
         <a href="/" class="w3-bar-item w3-button w3-mobile w3-cyan">Início</a>
         <a href="/adicionarPessoas" class="w3-bar-item w3-button w3-mobile w3-cyan">Adicionar pessoa</a>
@@ -17,9 +29,15 @@
         <a href="/public/sobre.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Sobre o site</a>
         <a href="/public/noticias.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Notícias</a>
     </div>
+    <div class="hidrate-se">
+        <h1>Hidrate-se</h1>
+    </div> 
 
-    <main class="container"> 
-      <h1>Esse site é sobre a disciplina Programação WEB de 2023.2 da UFERSA Angicos!</h1>
-    </main>
+    <img src="assets\gordinhoVascainoDaAgua.jpg" alt="Vascaino viraliza em final e fica conhecido como o 'Gordinho da água' " title="Gordinho da Água" class="center">
+   
+    
+  </main>
   </body>
 </html>
+
+
