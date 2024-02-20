@@ -16,5 +16,7 @@
         "Presunto",
         "Primeira",
         "Queijo"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.configureOnOpen": true
 }

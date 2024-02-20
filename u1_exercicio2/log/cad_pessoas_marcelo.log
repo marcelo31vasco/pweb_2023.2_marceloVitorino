@@ -1,0 +1,553 @@
+2024-02-19T23:22:39.899-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:22:39.901-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:22:40.030-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:22:40.033-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:22:40.125-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:22:40.126-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:22:40.126-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:22:40.138-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:22:40.138-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2024-02-19T23:22:40.154-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-02-19T23:22:40.157-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:22:40.158-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-02-19T23:22:40.158-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:22:40.177-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:22:40.179-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:22:40.181-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:22:40.183-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:22:40.190-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:22:40.191-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:22:40.249-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:22:40.278-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:22:40.285-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:22:40.289-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.42 seconds (process running for 724.425)
+2024-02-19T23:22:40.291-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:23:09.104-03:00  INFO 8500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T23:23:09.106-03:00  INFO 8500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T23:23:09.107-03:00  INFO 8500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19T23:23:46.617-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:23:46.627-03:00  INFO 8500 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:46.628-03:00  WARN 8500 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:23:46.629-03:00  INFO 8500 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-02-19T23:23:46.630-03:00  INFO 8500 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-02-19T23:23:46.686-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:23:46.686-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:23:46.811-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:23:46.813-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:23:46.890-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:23:46.891-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:23:46.892-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:23:46.902-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:23:46.902-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2024-02-19T23:23:46.912-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-02-19T23:23:46.914-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:23:46.915-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-02-19T23:23:46.915-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:23:46.934-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:23:46.936-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:23:46.936-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:23:46.936-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:23:46.947-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:23:46.947-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:47.039-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:23:47.068-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:23:47.068-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:23:47.068-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.398 seconds (process running for 791.218)
+2024-02-19T23:23:47.084-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:23:51.550-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:23:51.551-03:00  INFO 8500 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:51.551-03:00  WARN 8500 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:23:51.561-03:00  INFO 8500 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-02-19T23:23:51.561-03:00  INFO 8500 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-02-19T23:23:51.617-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:23:51.618-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:23:51.718-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:23:51.718-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:23:51.784-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:23:51.786-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:23:51.786-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:23:51.788-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:23:51.788-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2024-02-19T23:23:51.802-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-02-19T23:23:51.802-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:23:51.802-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-02-19T23:23:51.802-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:23:51.820-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:23:51.820-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:23:51.835-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:23:51.837-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:23:51.837-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:23:51.837-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:51.931-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:23:51.971-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:23:51.971-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:23:51.986-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.401 seconds (process running for 796.123)
+2024-02-19T23:23:51.986-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:23:59.483-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:23:59.486-03:00  INFO 8500 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:59.486-03:00  WARN 8500 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:23:59.494-03:00  INFO 8500 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-02-19T23:23:59.495-03:00  INFO 8500 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-02-19T23:23:59.535-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:23:59.535-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:23:59.634-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:23:59.634-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:23:59.685-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:23:59.685-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:23:59.685-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:23:59.685-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:23:59.700-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+2024-02-19T23:23:59.701-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-02-19T23:23:59.701-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:23:59.701-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-02-19T23:23:59.701-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:23:59.736-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:23:59.736-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:23:59.736-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:23:59.736-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:23:59.750-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:23:59.750-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:23:59.801-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:23:59.819-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:23:59.835-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:23:59.835-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.316 seconds (process running for 803.977)
+2024-02-19T23:23:59.835-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:21.559-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:21.568-03:00  INFO 8500 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:21.568-03:00  WARN 8500 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:21.569-03:00  INFO 8500 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-02-19T23:24:21.570-03:00  INFO 8500 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-02-19T23:24:21.619-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:21.619-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:21.744-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:21.747-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:21.802-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:21.802-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:21.802-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:21.826-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:21.827-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2024-02-19T23:24:21.836-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-02-19T23:24:21.836-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:21.836-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-02-19T23:24:21.836-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:21.853-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:21.853-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:21.853-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:21.853-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:21.868-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:21.868-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:21.919-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:21.959-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:21.961-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:21.969-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.367 seconds (process running for 826.106)
+2024-02-19T23:24:21.969-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:26.432-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:26.439-03:00  INFO 8500 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:26.439-03:00  WARN 8500 --- [Thread-28] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:26.439-03:00  INFO 8500 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-02-19T23:24:26.439-03:00  INFO 8500 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-02-19T23:24:26.501-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:26.501-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:26.590-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:26.593-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:26.635-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:26.635-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:26.635-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:26.655-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:26.655-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 149 ms
+2024-02-19T23:24:26.668-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-02-19T23:24:26.668-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:26.668-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-02-19T23:24:26.668-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:26.685-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:26.685-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:26.685-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:26.685-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:26.702-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:26.706-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:26.769-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:26.802-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:26.807-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:26.819-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.334 seconds (process running for 830.954)
+2024-02-19T23:24:26.822-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:30.282-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:30.290-03:00  INFO 8500 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:30.292-03:00  WARN 8500 --- [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:30.292-03:00  INFO 8500 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-02-19T23:24:30.293-03:00  INFO 8500 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-02-19T23:24:30.352-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:30.352-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:30.455-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:30.457-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:30.511-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:30.511-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:30.511-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:30.518-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:30.518-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2024-02-19T23:24:30.535-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-02-19T23:24:30.535-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:30.535-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-02-19T23:24:30.535-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:30.551-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:30.551-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:30.551-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:30.551-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:30.551-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:30.566-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:30.618-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:30.635-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:30.655-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:30.655-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.318 seconds (process running for 834.8)
+2024-02-19T23:24:30.667-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:38.150-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:38.157-03:00  INFO 8500 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:38.158-03:00  WARN 8500 --- [Thread-36] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:38.159-03:00  INFO 8500 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-02-19T23:24:38.160-03:00  INFO 8500 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-02-19T23:24:38.216-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:38.217-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:38.319-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:38.321-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:38.373-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:38.373-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:38.373-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:38.387-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:38.388-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2024-02-19T23:24:38.390-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-02-19T23:24:38.402-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:38.402-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-02-19T23:24:38.402-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:38.418-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:38.419-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:38.419-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:38.419-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:38.425-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:38.425-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:38.468-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:38.505-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:38.517-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:38.517-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.331 seconds (process running for 842.657)
+2024-02-19T23:24:38.517-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:43.986-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:43.993-03:00  INFO 8500 --- [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:43.994-03:00  WARN 8500 --- [Thread-40] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:43.995-03:00  INFO 8500 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-02-19T23:24:43.996-03:00  INFO 8500 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-02-19T23:24:44.052-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:44.052-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:44.161-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:44.163-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:44.217-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:44.217-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:44.217-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:44.217-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:44.233-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2024-02-19T23:24:44.235-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-02-19T23:24:44.235-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:44.235-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-02-19T23:24:44.235-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:44.252-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:44.252-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:44.252-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:44.266-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:44.268-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:44.268-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:44.319-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:44.352-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:44.369-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:44.370-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.334 seconds (process running for 848.508)
+2024-02-19T23:24:44.370-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:48.819-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:48.826-03:00  INFO 8500 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:48.827-03:00  WARN 8500 --- [Thread-44] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:48.828-03:00  INFO 8500 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-02-19T23:24:48.829-03:00  INFO 8500 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-02-19T23:24:48.868-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:48.868-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:48.972-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:48.972-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:49.019-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:49.019-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:49.019-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:49.041-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:49.041-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 173 ms
+2024-02-19T23:24:49.051-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-02-19T23:24:49.051-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:49.051-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-02-19T23:24:49.051-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:49.068-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:49.068-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:49.068-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:49.068-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:49.085-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:49.085-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:49.136-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:49.151-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:49.171-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:49.171-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.32 seconds (process running for 853.313)
+2024-02-19T23:24:49.171-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:55.680-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:55.680-03:00  INFO 8500 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:55.680-03:00  WARN 8500 --- [Thread-48] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:55.693-03:00  INFO 8500 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-02-19T23:24:55.694-03:00  INFO 8500 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-02-19T23:24:55.735-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:55.735-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:55.830-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:55.832-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:55.929-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:55.930-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:55.930-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:55.941-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:55.942-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2024-02-19T23:24:55.950-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-02-19T23:24:55.950-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:55.950-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-02-19T23:24:55.950-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:55.968-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:55.968-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:55.968-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:55.968-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:55.984-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:55.984-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:56.034-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:56.069-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:56.069-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:56.084-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.366 seconds (process running for 860.221)
+2024-02-19T23:24:56.084-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:24:59.525-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:24:59.534-03:00  INFO 8500 --- [Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:59.536-03:00  WARN 8500 --- [Thread-52] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:24:59.536-03:00  INFO 8500 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-02-19T23:24:59.537-03:00  INFO 8500 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2024-02-19T23:24:59.584-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:24:59.584-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:24:59.683-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:24:59.684-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:24:59.735-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:24:59.735-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:24:59.735-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:24:59.750-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:24:59.750-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2024-02-19T23:24:59.760-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2024-02-19T23:24:59.761-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection conn130: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:24:59.762-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2024-02-19T23:24:59.763-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:24:59.769-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:24:59.785-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:24:59.785-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:24:59.785-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:24:59.785-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:24:59.785-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:24:59.856-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:24:59.869-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:24:59.886-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:24:59.886-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.318 seconds (process running for 864.027)
+2024-02-19T23:24:59.886-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:04.350-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:04.358-03:00  INFO 8500 --- [Thread-56] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:04.359-03:00  WARN 8500 --- [Thread-56] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:04.360-03:00  INFO 8500 --- [Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2024-02-19T23:25:04.361-03:00  INFO 8500 --- [Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2024-02-19T23:25:04.401-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:04.401-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:04.485-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:04.499-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:04.534-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:04.534-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:04.534-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:04.552-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:04.552-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 151 ms
+2024-02-19T23:25:04.569-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2024-02-19T23:25:04.569-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn140: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:04.569-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2024-02-19T23:25:04.569-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:04.587-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:04.587-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:04.587-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:04.587-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:04.602-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:04.602-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:04.651-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:04.684-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:04.691-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:04.691-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.305 seconds (process running for 868.83)
+2024-02-19T23:25:04.691-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:11.194-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:11.208-03:00  INFO 8500 --- [Thread-60] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:11.211-03:00  WARN 8500 --- [Thread-60] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:11.211-03:00  INFO 8500 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2024-02-19T23:25:11.211-03:00  INFO 8500 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2024-02-19T23:25:11.268-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:11.268-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:11.354-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:11.356-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:11.416-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:11.417-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:11.418-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:11.426-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:11.427-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2024-02-19T23:25:11.434-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2024-02-19T23:25:11.434-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection conn150: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:11.434-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2024-02-19T23:25:11.434-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:11.451-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:11.451-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:11.451-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:11.451-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:11.468-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:11.469-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:11.518-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:11.534-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:11.551-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:11.551-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.3 seconds (process running for 875.691)
+2024-02-19T23:25:11.551-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:15.013-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:15.020-03:00  INFO 8500 --- [Thread-64] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:15.021-03:00  WARN 8500 --- [Thread-64] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:15.021-03:00  INFO 8500 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2024-02-19T23:25:15.022-03:00  INFO 8500 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2024-02-19T23:25:15.087-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:15.088-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:15.200-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:15.203-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:15.252-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:15.266-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:15.267-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:15.269-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:15.269-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2024-02-19T23:25:15.285-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2024-02-19T23:25:15.285-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection conn160: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:15.285-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2024-02-19T23:25:15.285-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:15.318-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:15.320-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:15.320-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:15.320-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:15.320-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:15.320-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:15.406-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:15.435-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:15.451-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:15.451-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.384 seconds (process running for 879.592)
+2024-02-19T23:25:15.451-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:20.904-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:20.906-03:00  INFO 8500 --- [Thread-68] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:20.906-03:00  WARN 8500 --- [Thread-68] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:20.906-03:00  INFO 8500 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2024-02-19T23:25:20.906-03:00  INFO 8500 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2024-02-19T23:25:20.982-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:20.983-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:21.092-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:21.094-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:21.156-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:21.156-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:21.156-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:21.178-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:21.179-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2024-02-19T23:25:21.189-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2024-02-19T23:25:21.189-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection conn170: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:21.189-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2024-02-19T23:25:21.189-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:21.217-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:21.219-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:21.219-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:21.219-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:21.219-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:21.219-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:21.289-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:21.318-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:21.318-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:21.334-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.378 seconds (process running for 885.469)
+2024-02-19T23:25:21.335-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:31.867-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:31.883-03:00  INFO 8500 --- [Thread-72] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:31.885-03:00  WARN 8500 --- [Thread-72] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:31.885-03:00  INFO 8500 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2024-02-19T23:25:31.885-03:00  INFO 8500 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2024-02-19T23:25:31.949-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:31.949-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:32.058-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:32.059-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:32.104-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:32.115-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:32.116-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:32.118-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:32.118-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+2024-02-19T23:25:32.135-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2024-02-19T23:25:32.135-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection conn180: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:32.135-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2024-02-19T23:25:32.135-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:32.152-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:32.152-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:32.152-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:32.152-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:32.168-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:32.168-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:32.218-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:32.234-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:32.251-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:32.251-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.318 seconds (process running for 896.393)
+2024-02-19T23:25:32.251-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:37.707-03:00  INFO 8500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T23:25:37.707-03:00  INFO 8500 --- [Thread-76] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:37.707-03:00  WARN 8500 --- [Thread-76] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:37.707-03:00  INFO 8500 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2024-02-19T23:25:37.717-03:00  INFO 8500 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2024-02-19T23:25:37.772-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 8500 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:25:37.772-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:25:37.867-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:25:37.867-03:00  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:25:37.920-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:25:37.920-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:25:37.920-03:00  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:25:37.936-03:00  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:25:37.936-03:00  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 164 ms
+2024-02-19T23:25:37.936-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2024-02-19T23:25:37.936-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection conn190: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:25:37.949-03:00  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2024-02-19T23:25:37.949-03:00  INFO 8500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:25:37.952-03:00  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:25:37.952-03:00  INFO 8500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:25:37.969-03:00  INFO 8500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:25:37.969-03:00  WARN 8500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:25:37.969-03:00  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:25:37.969-03:00  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:38.019-03:00  WARN 8500 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:25:38.051-03:00  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:25:38.051-03:00  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:25:38.051-03:00  INFO 8500 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 0.299 seconds (process running for 902.199)
+2024-02-19T23:25:38.066-03:00  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T23:25:53.641-03:00  INFO 8500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:25:53.641-03:00  WARN 8500 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-02-19T23:25:53.641-03:00  INFO 8500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2024-02-19T23:25:53.641-03:00  INFO 8500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2024-02-19T23:26:19.400-03:00  INFO 23096 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Starting CadpessoasMarceloApplication using Java 17.0.10 with PID 23096 (C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\pweb_2023.2_marceloVitorino\u1_exercicio2)
+2024-02-19T23:26:19.400-03:00  INFO 23096 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T23:26:19.451-03:00  INFO 23096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-19T23:26:19.451-03:00  INFO 23096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-19T23:26:19.949-03:00  INFO 23096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T23:26:19.967-03:00  INFO 23096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-02-19T23:26:20.410-03:00  INFO 23096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T23:26:20.410-03:00  INFO 23096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T23:26:20.410-03:00  INFO 23096 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T23:26:20.467-03:00  INFO 23096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T23:26:20.467-03:00  INFO 23096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1016 ms
+2024-02-19T23:26:20.516-03:00  INFO 23096 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T23:26:20.665-03:00  INFO 23096 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-02-19T23:26:20.665-03:00  INFO 23096 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T23:26:20.680-03:00  INFO 23096 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-02-19T23:26:20.788-03:00  INFO 23096 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T23:26:20.817-03:00  INFO 23096 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T23:26:20.854-03:00  INFO 23096 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T23:26:21.045-03:00  INFO 23096 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T23:26:21.115-03:00  WARN 23096 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-19T23:26:21.344-03:00  INFO 23096 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T23:26:21.344-03:00  INFO 23096 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T23:26:21.593-03:00  WARN 23096 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-19T23:26:21.701-03:00  INFO 23096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T23:26:21.728-03:00  INFO 23096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T23:26:21.737-03:00  INFO 23096 --- [restartedMain] b.c.m.c.CadpessoasMarceloApplication     : Started CadpessoasMarceloApplication in 2.685 seconds (process running for 2.978)
+2024-02-19T23:28:06.501-03:00  INFO 23096 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T23:28:06.501-03:00  INFO 23096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T23:28:06.515-03:00  INFO 23096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
