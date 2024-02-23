@@ -1,4 +1,4 @@
-package br.com.marcelo.cadpessoas_marcelo;
+package br.com.marcelo.cadPessoas_marcelo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

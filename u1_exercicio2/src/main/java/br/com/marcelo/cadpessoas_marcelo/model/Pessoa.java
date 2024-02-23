@@ -1,4 +1,4 @@
-package br.com.marcelo.cadpessoas_marcelo.model;
+package br.com.marcelo.cadPessoas_marcelo.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;
