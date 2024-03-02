@@ -18,38 +18,45 @@
       <a href="/public/noticias.html" class="w3-bar-item w3-button w3-mobile w3-cyan w3-right">Notícias</a>
   </div>
 
-    <main class="container"> 
-      <h1>Formulário para editar pessoas:</h1>
+    <main class="container">
+      <h1>Formulário para Editar pessoas:</h1>
 <section>
-    <form action="adicionadaComSucesso.html">
+    <form th:action="@{/editar/{id}(id=$pessoa.id})}" method="POST" th:object="${pessoa}">
         <div class="grid">
-            <span>
-                <label for="nome">Seu nomezinho*:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Nome da Primeira Pessoa"/>
-            </span>
-            <span>
-              <label for="email">e-Mail*:</label>
-                <input type="email" id="email" name="email" placeholder="primeira@primeira.com" />
+                <label for="nome">Seu nomezinho*:
+                    <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Nome Completo"
+                    th:field="*{nome}"
+                    required>
+                </label>
+                
+                <label for="email">e-Mail*:
+                    <input type="email" id="email" name="email" placeholder="mome@dominio.com" th:field="*{email}" required>
                     <small>Nunca divulgaremos :)</small>
-            </span>
-            <span>
-              <label for="dataNascimento">Data de Nascimento*:</label>
-                    <input type="date" id="dataNascimento" name="dataNascimento" placeholder="dataNascimento"/>
-            </span>
+                </label>
+                <label for="dataNascimento">Data de Nascimento*:
+                    <input type="date" id="dataNascimento" name="dataNascimento"
+                    placeholder="dd/mm/yyyy" th:field="*{dataNascimento}" required>
+                </label>
         </div>
+
         <div class="grid">
+
             <fieldset>
               <legend>Gênero*:</legend>
-              <label for="radio-1">
-                <input type="radio" id="radio-1 "name="radio" value="radio-1" checked/>
+              <label for="Masculino">
+                <input type="radio" id="masculino "name="genero" value="Masculino" th:field="*{genero}" required/>
                 Masculino
               </label>
-              <label for="radio-2">
-                <input type="radio" id="radio-2" name="radio" value="radio-2" />
+              <label for="Feminino">
+                <input type="radio" id="feminino" name="genero" value="Feminino" th:field="*{genero}" required/>
                 Feminino
               </label>
-              <label for="radio-3">
-                <input type="radio" id="radio-3" name="radio" value="radio-3" />
+              <label for="Não Informado">
+                <input type="radio" id="Não Informado" name="genero" value="Não Informado" th:field="*{genero}" required checked />
                 Não informar
               </label>
             </fieldset>
@@ -61,6 +68,5 @@
           <p>* Campo obrigatório</p>
         </form>
       </section>
-    </main>
   </body>
 </html>

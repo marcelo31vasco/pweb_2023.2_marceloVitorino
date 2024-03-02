@@ -46,7 +46,6 @@ public ModelAndView formularioAdicionarPessoas() {
 	ModelAndView modelAndView = new ModelAndView("adicionarPessoas");
 	modelAndView.addObject(new Pessoa());
 		return modelAndView;
-
 }
 	@PostMapping("/adicionarPessoa")
 	public String adicionarPessoa(Pessoa p){
@@ -54,11 +53,26 @@ public ModelAndView formularioAdicionarPessoas() {
 	return "redirect:/listarPessoas";
 	}
 		
+	@SuppressWarnings("null")
 	@GetMapping("/remover/{id}")
 	public ModelAndView removerPessoa(@PathVariable("id") long id) {
 		Pessoa aRemover = pessoaRepo.findById(id).orElseThrow(
 			() -> new IllegalArgumentException("Id inválido" + id));
 			pessoaRepo.delete(aRemover);
 			return new ModelAndView("redirect/listarPessoas");
+	}
+	@GetMapping("/editarPessoas")
+	public ModelAndView formularioAdicionarPessoas(@PathVariable("id") long id) {
+		Pessoa aEditar = pessoaRepo.findById(id).orElseThrow(() -> new IllegalArgumentException("Id Invalido" + id));
+		ModelAndView modelAndView = new ModelAndView("editarPessoas");
+		modelAndView.addObject(aEditar);
+		return modelAndView;
+}
+
+@PostMapping("/editar/{id}")
+	public String editarPessoa(@PathVariable("id") long id, Pessoa p){
+	this.pessoaRepo.save(p);
+	return "redirect:/listarPessoas";
+
 	}
 }
