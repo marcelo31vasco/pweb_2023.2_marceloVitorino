@@ -21,7 +21,7 @@
     <main class="container">
       <h1>Formulário para Editar pessoas:</h1>
 <section>
-    <form th:action="@{/editar/{id}(id=$pessoa.id})}" method="POST" th:object="${pessoa}">
+    <form th:action="@{/salvarPessoaEditada/{id}(id=${pessoa.id})}" method="POST" th:object="${pessoa}">
         <div class="grid">
                 <label for="nome">Seu nomezinho*:
                     <input
@@ -70,3 +70,4 @@
       </section>
   </body>
 </html>
+

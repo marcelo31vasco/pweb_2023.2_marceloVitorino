@@ -2,7 +2,7 @@
 
 <html>
   <head>
-
+    <meta charset="UTF-8">
     <link rel="stylesheet" th:href="@{\assets\w3.css}" />
     <link rel="stylesheet" th:href="@{\assets\pico.min.css}"/>
     <link rel="icon" type="image/x-icon" th:href="@{assets\favicon.ico}" />
@@ -49,7 +49,7 @@
               </a>
             </td>
               <td th:text="${#temporals.format(umaPessoa.dataNascimento, 'dd/mm/yyyy')}"></td>
-              <td th.text="{umPessoa.genero}"></td>
+              <td th:text="${umaPessoa.genero}"></td>
 
               <td><a th:href="@{/editar/{id}(id=${umaPessoa.id})}">Editar</a></td>
               <td><a th:href="@{/remover/{id}(id=${umaPessoa.id})}">Remover</a></td>
