@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VascodachurupitaApplication",
+            "request": "launch",
+            "mainClass": "br.com.marcelo.vascodachurupita.VascodachurupitaApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CadpessoasMarceloApplication<cadpessoas_marcelo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.marcelo.cadPessoas_marcelo.CadpessoasMarceloApplication",
+            "projectName": "cadpessoas_marcelo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
