@@ -1,0 +1,168 @@
+2024-04-19T22:25:46.999-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Starting VascodachurupitaApplication using Java 21.0.2 with PID 26128 (C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita)
+2024-04-19T22:25:47.000-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-04-19T22:25:47.150-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:25:47.150-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-19T22:25:47.150-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2024-04-19T22:25:47.150-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:25:47.150-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19T22:25:47.163-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-04-19T22:25:47.188-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=93bf8952-0084-365b-9b7b-cdf5533b907b
+2024-04-19T22:25:47.237-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-19T22:25:47.238-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-19T22:25:47.238-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19T22:25:47.251-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-19T22:25:47.252-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 248 ms
+2024-04-19T22:25:47.260-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Starting...
+2024-04-19T22:25:47.263-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-36 - Added connection conn470: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-04-19T22:25:47.264-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Start completed.
+2024-04-19T22:25:47.265-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-04-19T22:25:47.278-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19T22:25:47.280-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-19T22:25:47.285-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19T22:25:47.287-03:00  WARN 26128 --- [vascodachurupita] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19T22:25:47.294-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19T22:25:47.294-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:25:47.313-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-04-19T22:25:47.414-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-19T22:25:47.435-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-19T22:25:47.440-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Started VascodachurupitaApplication in 0.48 seconds (process running for 25561.856)
+2024-04-19T22:25:47.442-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-19T22:25:48.826-03:00  INFO 26128 --- [vascodachurupita] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-19T22:25:48.826-03:00  INFO 26128 --- [vascodachurupita] [Thread-214] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:25:48.833-03:00  WARN 26128 --- [vascodachurupita] [Thread-214] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-19T22:25:48.834-03:00  INFO 26128 --- [vascodachurupita] [Thread-214] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown initiated...
+2024-04-19T22:25:48.835-03:00  INFO 26128 --- [vascodachurupita] [Thread-214] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown completed.
+2024-04-19T22:25:48.910-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Starting VascodachurupitaApplication using Java 21.0.2 with PID 26128 (C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita)
+2024-04-19T22:25:48.911-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-04-19T22:25:49.020-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:25:49.020-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-19T22:25:49.020-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2024-04-19T22:25:49.020-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:25:49.020-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19T22:25:49.027-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-04-19T22:25:49.055-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=93bf8952-0084-365b-9b7b-cdf5533b907b
+2024-04-19T22:25:49.099-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-19T22:25:49.100-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-19T22:25:49.101-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19T22:25:49.116-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-19T22:25:49.116-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2024-04-19T22:25:49.126-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Starting...
+2024-04-19T22:25:49.129-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-37 - Added connection conn480: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-04-19T22:25:49.130-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Start completed.
+2024-04-19T22:25:49.130-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-04-19T22:25:49.145-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19T22:25:49.147-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-19T22:25:49.152-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19T22:25:49.152-03:00  WARN 26128 --- [vascodachurupita] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19T22:25:49.160-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19T22:25:49.161-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:25:49.180-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-04-19T22:25:49.268-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-19T22:25:49.323-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-19T22:25:49.325-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Started VascodachurupitaApplication in 0.441 seconds (process running for 25563.745)
+2024-04-19T22:25:49.332-03:00  INFO 26128 --- [vascodachurupita] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-19T22:26:22.680-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Starting VascodachurupitaApplication using Java 21.0.2 with PID 30224 (C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita)
+2024-04-19T22:26:22.683-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-04-19T22:26:22.717-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-19T22:26:22.717-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-19T22:26:23.294-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:26:23.294-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-19T22:26:23.309-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2024-04-19T22:26:23.322-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:26:23.322-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19T22:26:23.322-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-04-19T22:26:23.482-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=93bf8952-0084-365b-9b7b-cdf5533b907b
+2024-04-19T22:26:23.901-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-19T22:26:23.917-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-19T22:26:23.919-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19T22:26:23.967-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-19T22:26:23.968-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2024-04-19T22:26:23.992-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-19T22:26:24.133-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-04-19T22:26:24.148-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-19T22:26:24.148-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-04-19T22:26:24.273-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19T22:26:24.317-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-19T22:26:24.341-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-19T22:26:24.529-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19T22:26:24.550-03:00  WARN 30224 --- [vascodachurupita] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19T22:26:24.783-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19T22:26:24.783-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:26:24.872-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-04-19T22:26:25.274-03:00  WARN 30224 --- [vascodachurupita] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-19T22:26:25.319-03:00  WARN 30224 --- [vascodachurupita] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-19T22:26:25.319-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:26:25.336-03:00  WARN 30224 --- [vascodachurupita] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-19T22:26:25.337-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-19T22:26:25.340-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-19T22:26:25.351-03:00  INFO 30224 --- [vascodachurupita] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-19T22:26:25.376-03:00 ERROR 30224 --- [vascodachurupita] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2024-04-19T22:26:30.859-03:00  INFO 26128 --- [vascodachurupita] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19T22:26:30.859-03:00  INFO 26128 --- [vascodachurupita] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-19T22:26:30.861-03:00  INFO 26128 --- [vascodachurupita] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-19T22:46:22.876-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : Starting VascodachurupitaApplication using Java 21.0.2 with PID 24668 (C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita\target\classes started by Marce in C:\Users\Marce\Documents\GitHub\Lojinha_Vasco_da_Churupita)
+2024-04-19T22:46:22.880-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] b.c.m.v.VascodachurupitaApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-04-19T22:46:22.937-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-19T22:46:22.937-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-19T22:46:23.513-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:46:23.513-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-19T22:46:23.539-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2024-04-19T22:46:23.544-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-19T22:46:23.550-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19T22:46:23.556-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-04-19T22:46:23.701-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=93bf8952-0084-365b-9b7b-cdf5533b907b
+2024-04-19T22:46:24.118-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-19T22:46:24.134-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-19T22:46:24.134-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19T22:46:24.186-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-19T22:46:24.186-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1238 ms
+2024-04-19T22:46:24.225-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-19T22:46:24.382-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cadpessoas user=ADMIN
+2024-04-19T22:46:24.382-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-19T22:46:24.382-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2024-04-19T22:46:24.503-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19T22:46:24.539-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-19T22:46:24.576-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-19T22:46:24.749-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19T22:46:24.783-03:00  WARN 24668 --- [vascodachurupita] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19T22:46:25.031-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19T22:46:25.047-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:46:25.135-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-04-19T22:46:25.513-03:00  WARN 24668 --- [vascodachurupita] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-19T22:46:25.568-03:00  WARN 24668 --- [vascodachurupita] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-19T22:46:25.572-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19T22:46:25.572-03:00  WARN 24668 --- [vascodachurupita] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-04-19T22:46:25.582-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-19T22:46:25.584-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-19T22:46:25.596-03:00  INFO 24668 --- [vascodachurupita] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-19T22:46:25.625-03:00 ERROR 24668 --- [vascodachurupita] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
